@@ -1,4 +1,3 @@
-
 def not_blank(subject, error, num):
     loop = True
     while loop:
@@ -20,21 +19,4 @@ def not_blank(subject, error, num):
             else:
                 return response
 
-
-def num_check(subject, error):
-    loop = True
-    while loop:
-        try:
-            ask = float(input(subject))
-            if ask <= 0:
-                print(error)
-            else:
-                return ask
-
-        except ValueError:
-            print(error)
-
-
-
-okay = num_check("testing: ","Error")
-print(okay)
+test = not_blank("Testing (number allowed): ", "Error", True)
