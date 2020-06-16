@@ -26,6 +26,23 @@ def not_blank(subject, error, num):
                 return response
 
 
+def confirm(subject, error):
+    loop = True
+    while loop:
+        response = input(subject)
+        if response == "":
+            print(error)
+            continue
+        elif response.lower() == "yes" or response.lower() == "y":
+            response = "yes"
+            return response
+        elif response.lower() == "no" or response.lower() == "n":
+            response = "no"
+            return response
+        else:
+            print(error)
+            continue
+
 # this function get the type of shape
 
 
@@ -80,8 +97,26 @@ def num_check(subject, error):
     while loop:
         fail = False
         ask = not_blank(subject, error, True)
+        if ask == 0 or ask == "0":
+            print("The length must be more than 0")
+            continue
         for letter in ask:
-            if not letter.isdigit():
+            if letter.isalpha():
+                fail = True
+        if fail:
+            print(error)
+            continue
+        else:
+            return ask
+
+
+def num_check_1(subject, error):
+    loop = True
+    while loop:
+        fail = False
+        ask = not_blank(subject, error, True)
+        for letter in ask:
+            if letter.isdigit():
                 fail = True
         if fail:
             print(error)
@@ -97,7 +132,7 @@ def calculate_tri(history):
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
-        if question.lower() == "perimeter":
+        if question.lower() == "perimeter" or question.lower() == "p":
             side_1 = num_check("Side 1: ", "Please enter the length")
             side_2 = num_check("Side 2: ", "Please enter the length")
             side_3 = num_check("Side 3: ", "Please enter the length")
@@ -105,7 +140,7 @@ def calculate_tri(history):
             history_1 = ("Perimeter of a triangle: ", perimeter)
             history.append(history_1)
             return perimeter
-        elif question.lower() == "area":
+        elif question.lower() == "area" or question.lower() == "a":
             base = num_check("Base: ", "Please enter the length")
             height = num_check("Height: ", "Please enter the length")
             area = float(base) * float(height) / 2
@@ -121,13 +156,13 @@ def calculate_square(history):
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
-        if question.lower() == "perimeter":
+        if question.lower() == "perimeter" or question.lower() == "p":
             side_1 = num_check("Side: ", "Please enter the length")
             perimeter = float(side_1) * 4
             history_1 = ("Perimeter of a square: ", perimeter)
             history.append(history_1)
             return perimeter
-        elif question.lower() == "area":
+        elif question.lower() == "area" or question.lower() == "a":
             side_1 = num_check("Side: ", "Please enter the length")
             area = float(side_1) * float(side_1)
             history_1 = ("Area of a square: ", area)
@@ -142,14 +177,14 @@ def calculate_rectangle(history):
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
-        if question.lower() == "perimeter":
+        if question.lower() == "perimeter" or question.lower() == "p":
             side_1 = num_check("Side 1: ", "Please enter the length")
             side_2 = num_check("Side 2: ", "Please enter the length")
             perimeter = float(side_1) + float(side_2) + float(side_1) + float(side_2)
             history_1 = ("Perimeter of a rectangle: ", perimeter)
             history.append(history_1)
             return perimeter
-        elif question.lower() == "area":
+        elif question.lower() == "area" or question.lower() == "a":
             side_1 = num_check("Side 1: ", "Please enter the length")
             side_2 = num_check("Side 2: ", "Please enter the length")
             area = float(side_1) * float(side_2)
@@ -163,11 +198,11 @@ def calculate_circle():
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
-        if question.lower() == "perimeter":
+        if question.lower() == "perimeter" or question.lower() == "p":
             radius = num_check("Radius: ", "Please enter the length")
             perimeter = float(radius) * 2 * math.pi
             return perimeter
-        elif question.lower() == "area":
+        elif question.lower() == "area" or question.lower() == "a":
             radius = num_check("Radius: ", "Please enter the length")
             area = float(radius) * float(radius) * math.pi
             return area
@@ -180,14 +215,14 @@ def calculate_parallelogram():
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
-        if question.lower() == "perimeter":
+        if question.lower() == "perimeter" or question.lower() == "p":
             side_1 = num_check("Side 1: ", "Please enter the length")
             side_2 = num_check("Side 2: ", "Please enter the length")
             side_3 = num_check("Side 3: ", "Please enter the length")
             side_4 = num_check("Side 4: ", "Please enter the length")
             perimeter = float(side_1) + float(side_2) + float(side_3) + float(side_4)
             return perimeter
-        elif question.lower() == "area":
+        elif question.lower() == "area" or question.lower() == "a":
             base = num_check("Base: ", "Please enter the length")
             height = num_check("Height: ", "Please enter the length")
             area = float(base) * float(height) / 2
@@ -220,16 +255,25 @@ def calculate_main(shapes):
 
 # list goes here
 
-triangle = ["tri", "triangle", "three angle", "three angles"]
-square = ["square", "sq"]
-rectangle = ["rectangle", "rec"]
-circle = ["circle", "no corner"]
-parallelogram = ["parallelogram", " parallel"]
+triangle = ["tri", "triangle", "three angle", "three angles", "t"]
+square = ["square", "sq", "s"]
+rectangle = ["rectangle", "rec", "r"]
+circle = ["circle", "no corner", "c"]
+parallelogram = ["parallelogram", " parallel", "p"]
 
 
 # testing goes here
-shape = get_shape("shape: ", "Please enter a shape name")
-say_shape(shape)
-get_ready = calculate_main(shape)
-print(get_ready)
-print(history_main)
+loop_1 = True
+while loop_1:
+    shape = get_shape("shape: ", "Please enter a shape name")
+    say_shape(shape)
+    get_ready = calculate_main(shape)
+    print("The answer: ", get_ready)
+    go = confirm("Do you want to keep going? ", "Please say yes or no")
+    if go.lower() == "yes":
+        continue
+    else:
+        break
+
+for i in history_main:
+    print(i)
