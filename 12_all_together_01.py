@@ -1,7 +1,7 @@
 import math
-history_main = []
 
-# not blank function
+
+# function goes here...
 
 
 def not_blank(subject, error, num):
@@ -31,20 +31,20 @@ def get_unit(subject):
     while loop:
         question = input(subject)
         question = question.strip()
-        if question in cm:
-            question = cm
+        if question.lower() in cm:
+            question = 'cm'
             return question
-        elif question in mm:
-            question = mm
+        elif question.lower() in mm:
+            question = 'mm'
             return question
-        elif question in km:
-            question = km
+        elif question.lower() in km:
+            question = 'km'
             return question
-        elif question in m:
-            question = m
+        elif question.lower() in m:
+            question = 'm'
             return question
         else:
-            print("Please enter a unit ('cm', 'km', 'mm)")
+            print("Please enter a unit ('cm', 'km', 'mm', 'm')")
             continue
 
 
@@ -255,38 +255,20 @@ def calculate_parallelogram(history, unit):
 
 def calculate_main(shapes):
     if shapes == triangle:
-        unit = get_unit("Please enter a unit")
         tri = calculate_tri(history_main, unit)
         return tri
     if shapes == square:
-        unit = get_unit("Please enter a unit")
         squ = calculate_square(history_main, unit)
         return squ
     if shapes == rectangle:
-        unit = get_unit("Please enter a unit")
         rec = calculate_rectangle(history_main, unit)
         return rec
     if shapes == circle:
-        unit = get_unit("Please enter a unit")
         cir = calculate_circle(history_main, unit)
         return cir
     if shapes == parallelogram:
-        unit = get_unit("Please enter a unit")
         para = calculate_parallelogram(history_main, unit)
         return para
-
-
-
-
-
-
-
-
-
-
-
-
-# This function calculates the shape:
 
 
 # list goes here
@@ -300,18 +282,63 @@ cm = ["cm"]
 km = ["km"]
 mm = ["mm"]
 m = ["m"]
-# testing goes here
+history_main = []
+# Main routine goes here
+loop = True
+while loop:
+    instruction = input("Hello, Is this your first time using this program? ")
+    if instruction.lower() == "yes" or instruction.lower() == "y":
+        loop_1 = True
+        while loop_1:
+            print("This program calculates 2 dimension for 5 shapes with 4 units")
+            print("Press enter to continue")
+            input("First of all, it can only calculate perimeter and area")
+            input("Second, there are 5 shapes that the program able to calculate")
+            print("triangle - t")
+            print("square - s")
+            print("rectangle - r")
+            print("circle - c")
+            input("parallelogram - p")
+            input("Lastly, the units, there are only 4 units at the moment")
+            print("Kilometer - km - k")
+            print("Meter - m")
+            print("Centimeter - cm - c")
+            input("Millimeter - mm")
+            print("To begin, the program will ask you for the shape, and then will ask you for the unit")
+            input("and lastly the dimensions")
+            print("After that it will give you the answer and will ask you whether you want to keep going or stop")
+            print("If you choose to keep going then the program will keep going")
+            print("But if you choose to stop the program will show you your history calculations")
+            print("And remember, the length should be more than 0!")
+            okay = confirm("Do you understand this tutorial? ", " Please enter either yes or no")
+            if okay.lower() == "yes" or okay.lower() == "y":
+                print("Okay, have fun")
+                break
+            else:
+                print("It rewind time")
+                continue
+        break
+    elif instruction.lower() == "no" or instruction.lower() == "n":
+        print("Have fun using the calculator")
+        break
+    else:
+        print('Please enter either yes or no')
+        continue
+
+
 loop_1 = True
 while loop_1:
     shape = get_shape("shape: ", "Please enter a shape name")
     say_shape(shape)
+    unit = get_unit("Unit: ")
     get_ready = calculate_main(shape)
-    print("The answer: ", get_ready)
+    print("The answer:", get_ready, unit)
     go = confirm("Do you want to keep going? ", "Please say yes or no")
     if go.lower() == "yes":
         continue
     else:
         break
-
+print("Here is your history")
+print()
 for i in history_main:
     print(i)
