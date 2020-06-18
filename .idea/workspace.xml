@@ -19,66 +19,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01_get_input_v1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_get_input_v1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function_01.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/function_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-              <folding>
-                <element signature="e#94#599#0" expanded="false" />
-                <element signature="e#629#1148#0" expanded="false" />
-                <element signature="e#1184#1624#0" expanded="false" />
-                <element signature="e#2387#2737#0" expanded="false" />
-                <element signature="e#2777#3201#0" expanded="false" />
-                <element signature="e#3239#3471#0" expanded="false" />
-                <element signature="e#3512#4590#0" expanded="false" />
-                <element signature="e#4634#5468#0" expanded="false" />
-                <element signature="e#5515#6543#0" expanded="false" />
-                <element signature="e#6587#7449#0" expanded="false" />
-                <element signature="e#7500#8679#0" expanded="false" />
-                <element signature="e#8714#9453#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="not_blank_01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/not_blank_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="temp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12_all_together_01.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12_all_together_01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1734">
+              <caret line="363" column="57" selection-start-line="363" selection-start-column="57" selection-end-line="363" selection-end-column="57" />
               <folding>
-                <marker date="1592346480040" expanded="true" signature="579:816" ph="..." />
+                <element signature="e#125#808#0" expanded="false" />
+                <element signature="e#874#1551#0" expanded="false" />
+                <element signature="e#1640#2100#0" expanded="false" />
+                <element signature="e#2176#3014#0" expanded="false" />
+                <element signature="e#3136#3569#0" expanded="false" />
+                <element signature="e#3689#4013#0" expanded="false" />
+                <element signature="e#4098#5467#0" expanded="false" />
+                <element signature="e#5553#6678#0" expanded="false" />
+                <element signature="e#6770#8089#0" expanded="false" />
+                <element signature="e#8175#9328#0" expanded="false" />
+                <element signature="e#9417#10882#0" expanded="false" />
+                <element signature="e#11008#11502#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sqlite3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1249248731/_sqlite3.py">
+      <file leaf-file-name="01_not_blank_01.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_not_blank_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="510" column="8" selection-start-line="510" selection-start-column="8" selection-end-line="510" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,6 +80,7 @@
         <option value="$PROJECT_DIR$/temp.py" />
         <option value="$PROJECT_DIR$/not_blank_01.py" />
         <option value="$PROJECT_DIR$/function_01.py" />
+        <option value="$PROJECT_DIR$/12_all_together_01.py" />
       </list>
     </option>
   </component>
@@ -137,6 +116,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,8 +138,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -167,11 +146,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01_Programming/01_Recipe/09_recipe_morderniser.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.function_01">
+  <component name="RunManager" selected="Python.12_all_together_01">
     <configuration default="false" name="01_get_input_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,6 +198,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="2020-91896-7-assessment-zzthomaszzz" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="12_all_together_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2020-91896-7-assessment-zzthomaszzz" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_all_together_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -357,16 +353,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.01_get_input_v1" />
       <item index="1" class="java.lang.String" itemvalue="Python.function_01" />
       <item index="2" class="java.lang.String" itemvalue="Python.temp" />
+      <item index="3" class="java.lang.String" itemvalue="Python.12_all_together_01" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.function_01" />
-        <item index="1" class="java.lang.String" itemvalue="Python.temp" />
-        <item index="2" class="java.lang.String" itemvalue="Python.01_get_input_v1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.12_all_together_01" />
+        <item index="1" class="java.lang.String" itemvalue="Python.function_01" />
+        <item index="2" class="java.lang.String" itemvalue="Python.temp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.01_get_input_v1" />
       </list>
     </recent_temporary>
   </component>
@@ -387,19 +385,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13751318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.2567714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="834" y="178" width="958" height="752" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.2567714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="821" y="168" width="958" height="752" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -460,12 +458,19 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_get_input_v1.py">
+    <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -473,44 +478,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#94#599#0" expanded="false" />
-            <element signature="e#629#1148#0" expanded="false" />
-            <element signature="e#1184#1624#0" expanded="false" />
-            <element signature="e#2387#2737#0" expanded="false" />
-            <element signature="e#2777#3201#0" expanded="false" />
-            <element signature="e#3239#3471#0" expanded="false" />
-            <element signature="e#3512#4590#0" expanded="false" />
-            <element signature="e#4634#5468#0" expanded="false" />
-            <element signature="e#5515#6543#0" expanded="false" />
-            <element signature="e#6587#7449#0" expanded="false" />
-            <element signature="e#7500#8679#0" expanded="false" />
-            <element signature="e#8714#9453#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1249248731/_sqlite3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8670">
-          <caret line="510" column="8" selection-start-line="510" selection-start-column="8" selection-end-line="510" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1249248731/_sqlite3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="510" column="8" selection-start-line="510" selection-start-column="8" selection-end-line="510" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_get_input_v1.py">
+    <entry file="file://$PROJECT_DIR$/01_get_input_v1.py" />
+    <entry file="file://$PROJECT_DIR$/function_01.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1249248731/_sqlite3.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1249248731/_sqlite3.py" />
+    <entry file="file://$PROJECT_DIR$/01_get_input_v1.py" />
+    <entry file="file://$PROJECT_DIR$/not_blank_01.py" />
+    <entry file="file://$PROJECT_DIR$/function_01.py" />
+    <entry file="file://$PROJECT_DIR$/09_cal_square_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -520,39 +495,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <marker date="1592346480040" expanded="true" signature="579:816" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/not_blank_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function_01.py">
+    <entry file="file://$PROJECT_DIR$/01_not_blank_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../01_Programming/01_Recipe/09_recipe_morderniser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="265" column="38" selection-start-line="265" selection-start-column="38" selection-end-line="265" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../01_Programming/01_Recipe/09_ingredient_splitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_all_together_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="363" column="57" selection-start-line="363" selection-start-column="57" selection-end-line="363" selection-end-column="57" />
           <folding>
-            <element signature="e#94#599#0" expanded="false" />
-            <element signature="e#629#1148#0" expanded="false" />
-            <element signature="e#1184#1624#0" expanded="false" />
-            <element signature="e#2387#2737#0" expanded="false" />
-            <element signature="e#2777#3201#0" expanded="false" />
-            <element signature="e#3239#3471#0" expanded="false" />
-            <element signature="e#3512#4590#0" expanded="false" />
-            <element signature="e#4634#5468#0" expanded="false" />
-            <element signature="e#5515#6543#0" expanded="false" />
-            <element signature="e#6587#7449#0" expanded="false" />
-            <element signature="e#7500#8679#0" expanded="false" />
-            <element signature="e#8714#9453#0" expanded="false" />
+            <element signature="e#125#808#0" expanded="false" />
+            <element signature="e#874#1551#0" expanded="false" />
+            <element signature="e#1640#2100#0" expanded="false" />
+            <element signature="e#2176#3014#0" expanded="false" />
+            <element signature="e#3136#3569#0" expanded="false" />
+            <element signature="e#3689#4013#0" expanded="false" />
+            <element signature="e#4098#5467#0" expanded="false" />
+            <element signature="e#5553#6678#0" expanded="false" />
+            <element signature="e#6770#8089#0" expanded="false" />
+            <element signature="e#8175#9328#0" expanded="false" />
+            <element signature="e#9417#10882#0" expanded="false" />
+            <element signature="e#11008#11502#0" expanded="false" />
           </folding>
         </state>
       </provider>
