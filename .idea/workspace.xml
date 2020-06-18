@@ -32,8 +32,8 @@
       <file leaf-file-name="12_all_together_01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/12_all_together_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="363" column="57" selection-start-line="363" selection-start-column="57" selection-end-line="363" selection-end-column="57" />
+            <state relative-caret-position="226">
+              <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
               <folding>
                 <element signature="e#125#808#0" expanded="false" />
                 <element signature="e#874#1551#0" expanded="false" />
@@ -41,12 +41,13 @@
                 <element signature="e#2176#3014#0" expanded="false" />
                 <element signature="e#3136#3569#0" expanded="false" />
                 <element signature="e#3689#4013#0" expanded="false" />
-                <element signature="e#4098#5467#0" expanded="false" />
-                <element signature="e#5553#6678#0" expanded="false" />
-                <element signature="e#6770#8089#0" expanded="false" />
-                <element signature="e#8175#9328#0" expanded="false" />
-                <element signature="e#9417#10882#0" expanded="false" />
-                <element signature="e#11008#11502#0" expanded="false" />
+                <element signature="e#4098#5503#0" expanded="false" />
+                <element signature="e#5589#6750#0" expanded="false" />
+                <element signature="e#6842#8197#0" expanded="false" />
+                <element signature="e#8283#9472#0" expanded="false" />
+                <element signature="e#9561#11062#0" expanded="false" />
+                <element signature="e#11188#11682#0" expanded="false" />
+                <element signature="e#12043#14052#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -116,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,6 +137,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -146,7 +147,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01_Programming/01_Recipe/09_recipe_morderniser.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -385,15 +386,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.2567714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="821" y="168" width="958" height="752" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.2567714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="1017" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -465,11 +466,49 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_all_together_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#808#0" expanded="false" />
+            <element signature="e#874#1551#0" expanded="false" />
+            <element signature="e#1640#2100#0" expanded="false" />
+            <element signature="e#2176#3014#0" expanded="false" />
+            <element signature="e#3136#3569#0" expanded="false" />
+            <element signature="e#3689#4013#0" expanded="false" />
+            <element signature="e#4098#5503#0" expanded="false" />
+            <element signature="e#5589#6750#0" expanded="false" />
+            <element signature="e#6842#8197#0" expanded="false" />
+            <element signature="e#8283#9472#0" expanded="false" />
+            <element signature="e#9561#11062#0" expanded="false" />
+            <element signature="e#11188#11682#0" expanded="false" />
+            <element signature="e#12043#14052#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_not_blank_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -489,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="265" column="38" selection-start-line="265" selection-start-column="38" selection-end-line="265" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -521,14 +558,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/12_all_together_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="363" column="57" selection-start-line="363" selection-start-column="57" selection-end-line="363" selection-end-column="57" />
+        <state relative-caret-position="226">
+          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
           <folding>
             <element signature="e#125#808#0" expanded="false" />
             <element signature="e#874#1551#0" expanded="false" />
@@ -536,12 +572,13 @@
             <element signature="e#2176#3014#0" expanded="false" />
             <element signature="e#3136#3569#0" expanded="false" />
             <element signature="e#3689#4013#0" expanded="false" />
-            <element signature="e#4098#5467#0" expanded="false" />
-            <element signature="e#5553#6678#0" expanded="false" />
-            <element signature="e#6770#8089#0" expanded="false" />
-            <element signature="e#8175#9328#0" expanded="false" />
-            <element signature="e#9417#10882#0" expanded="false" />
-            <element signature="e#11008#11502#0" expanded="false" />
+            <element signature="e#4098#5503#0" expanded="false" />
+            <element signature="e#5589#6750#0" expanded="false" />
+            <element signature="e#6842#8197#0" expanded="false" />
+            <element signature="e#8283#9472#0" expanded="false" />
+            <element signature="e#9561#11062#0" expanded="false" />
+            <element signature="e#11188#11682#0" expanded="false" />
+            <element signature="e#12043#14052#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -139,6 +139,7 @@ def calculate_tri(history, unit):
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
+        question = question.strip()
         if question.lower() == "perimeter" or question.lower() == "p":
             side_1 = num_check("Side 1: ", "Please enter the length")
             side_2 = num_check("Side 2: ", "Please enter the length")
@@ -168,6 +169,7 @@ def calculate_square(history, unit):
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
+        question = question.strip()
         if question.lower() == "perimeter" or question.lower() == "p":
             side_1 = num_check("Side: ", "Please enter the length")
             perimeter = float(side_1) * 4
@@ -194,6 +196,7 @@ def calculate_rectangle(history, unit):
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
+        question = question.strip()
         if question.lower() == "perimeter" or question.lower() == "p":
             side_1 = num_check("Side 1: ", "Please enter the length")
             side_2 = num_check("Side 2: ", "Please enter the length")
@@ -222,6 +225,7 @@ def calculate_circle(history, unit):
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
+        question = question.strip()
         if question.lower() == "perimeter" or question.lower() == "p":
             radius = num_check("Radius: ", "Please enter the length")
             perimeter = float(radius) * 2 * math.pi
@@ -248,6 +252,7 @@ def calculate_parallelogram(history, unit):
     loop = True
     while loop:
         question = input("What dimension do you want to calculate? area or perimeter? ")
+        question = question.strip()
         if question.lower() == "perimeter" or question.lower() == "p":
             side_1 = num_check("Side 1: ", "Please enter the length")
             side_2 = num_check("Side 2: ", "Please enter the length")
